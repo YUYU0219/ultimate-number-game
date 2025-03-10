@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ultimate-number-game/static/css/main.64720648.css",
+    "main.js": "/ultimate-number-game/static/js/main.4c377402.js",
+    "static/js/453.30f09eeb.chunk.js": "/ultimate-number-game/static/js/453.30f09eeb.chunk.js",
+    "index.html": "/ultimate-number-game/index.html",
+    "main.64720648.css.map": "/ultimate-number-game/static/css/main.64720648.css.map",
+    "main.4c377402.js.map": "/ultimate-number-game/static/js/main.4c377402.js.map",
+    "453.30f09eeb.chunk.js.map": "/ultimate-number-game/static/js/453.30f09eeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64720648.css",
+    "static/js/main.4c377402.js"
+  ]
+}
