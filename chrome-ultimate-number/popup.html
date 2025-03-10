@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>终极数字游戏</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>终极数字游戏</h1>
+    <p>猜一个1到100之间的数字</p>
+    
+    <div class="game-container">
+      <input 
+        type="number" 
+        id="guessInput" 
+        min="1" 
+        max="100" 
+        placeholder="输入你的猜测">
+      
+      <div class="button-container">
+        <button id="guessButton">猜！</button>
+        <button id="resetButton">重新开始</button>
+      </div>
+
+      <p id="message" class="message"></p>
+      <p id="attempts">已尝试次数: 0</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

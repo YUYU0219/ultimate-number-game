@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "终极数字游戏",
+  "version": "1.0",
+  "description": "一个简单的猜数字游戏",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+} 
