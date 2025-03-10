@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "终极数字游戏",
+  "name": "終極數字遊戲",
   "version": "1.0",
-  "description": "一个简单的猜数字游戏",
+  "description": "一個簡單的猜數字遊戲",
   "action": {
     "default_popup": "popup.html"
   },

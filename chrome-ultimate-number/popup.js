@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function updateRangeDisplay() {
     if (!gameOver) {
-      message.innerHTML = `${message.textContent}<br>当前范围：${minRange} - ${maxRange}`;
+      message.innerHTML = `${message.textContent}<br>當前範圍：${minRange} - ${maxRange}`;
     }
   }
 
@@ -21,25 +21,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const guess = parseInt(guessInput.value);
     
     if (isNaN(guess) || guess < 1 || guess > 100) {
-      message.textContent = '请输入1到100之间的有效数字！';
+      message.textContent = '請輸入1到100之間的有效數字！';
       updateRangeDisplay();
       return;
     }
 
     attempts++;
-    attemptsDisplay.textContent = `已尝试次数: ${attempts}`;
+    attemptsDisplay.textContent = `已嘗試次數: ${attempts}`;
 
     if (guess === targetNumber) {
-      message.textContent = `恭喜你！你用了 ${attempts} 次猜对了数字！`;
+      message.textContent = `恭喜你！你用了 ${attempts} 次猜對了數字！`;
       gameOver = true;
       guessInput.disabled = true;
       guessButton.disabled = true;
     } else if (guess < targetNumber) {
-      message.textContent = '太小了，再试试！';
+      message.textContent = '太小了，再試試！';
       minRange = Math.max(minRange, guess + 1);
       updateRangeDisplay();
     } else {
-      message.textContent = '太大了，再试试！';
+      message.textContent = '太大了，再試試！';
       maxRange = Math.min(maxRange, guess - 1);
       updateRangeDisplay();
     }
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     guessInput.disabled = false;
     guessButton.disabled = false;
     message.textContent = '';
-    attemptsDisplay.textContent = '已尝试次数: 0';
+    attemptsDisplay.textContent = '已嘗試次數: 0';
   });
 
   guessInput.addEventListener('keypress', function(e) {
