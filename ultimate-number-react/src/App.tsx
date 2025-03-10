@@ -50,7 +50,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>終極數字遊戲</h1>
+        <h1>Hi 歡迎來到終極數字遊戲</h1>
         <p>猜一個1到100之間的數字</p>
         
         <div className="game-container">
