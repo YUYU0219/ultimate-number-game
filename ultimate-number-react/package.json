@@ -2,7 +2,7 @@
   "name": "ultimate-number-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yuyu0219.github.io/ultimate-number-game",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^5.17.0",
